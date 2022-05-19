@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        margin:0;
+        padding:0;
+    }
+
+    main {
+        width: 100%;
+        height: 100VH;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #login {
+        width: 300px;
+        height: auto;
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    label {
+        display: block;
+        width: 100%;
+    }
+
+    input.txt{
+        width: 100%;
+        height: 30px;
+        padding: 10px;
+        background-color: rgb(250, 239, 176);
+        border: 1px solid black;
+    }
+
+    input.btn{
+        width: 100%;
+        height: 40px;
+        margin-top: 15px;
+        border: none;
+        text-align: center;
+        background-color: rgb(19, 202, 235);
+        color: white;
+        font-size: 16px;
+    }
+</style>
+<body>
+    <main>
+        <div id="login">
+            <label for="usuario">Usuário</label>
+            <input class="txt" type="text" value="" name="usuario" id="usuario">
+            <label for="Senha">Senha</label>
+            <input class="txt" type="password" value="" name="senha" id="senha">
+            <input class="btn" type="buttom" value="Entrar" name="btn" id="btn">
+        </div>
+    </main>
+</body>
+
+</html>
